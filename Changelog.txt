@@ -1,0 +1,7 @@
+Version 1.0.0
+-------------
+- Initial public release
+- Included backend auto-launcher
+- Added installation support via MSI
+- Layer-wise prediction and PDF export
+- Improved UI and animations
