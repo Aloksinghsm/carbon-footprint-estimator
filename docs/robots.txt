@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aloksinghsm.github.io/carbon-footprint-estimator/sitemap.xml

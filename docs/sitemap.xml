@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://aloksinghsm.github.io/carbon-footprint-estimator/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://aloksinghsm.github.io/carbon-footprint-estimator/docs/index.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://aloksinghsm.github.io/carbon-footprint-estimator/docs/screenshots/Full_Interface.png</loc>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://aloksinghsm.github.io/carbon-footprint-estimator/docs/screenshots/User_Project_Info.png</loc>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://aloksinghsm.github.io/carbon-footprint-estimator/docs/screenshots/Layer_input.png</loc>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://aloksinghsm.github.io/carbon-footprint-estimator/docs/screenshots/calculation.png</loc>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://aloksinghsm.github.io/carbon-footprint-estimator/docs/screenshots/Graph_Section.png</loc>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://aloksinghsm.github.io/carbon-footprint-estimator/docs/screenshots/Generated_PDF.png</loc>
+    <priority>0.4</priority>
+  </url>
+
+</urlset>
