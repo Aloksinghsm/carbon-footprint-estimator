@@ -57,25 +57,25 @@ The **Flexible Pavement Carbon Footprint Estimator** is a desktop software tool 
 ## 🖼 Screenshots
 
 ### 🟦 Full Application Interface
-![Full Interface](docs/screenshots/Full_Interface.png)
+![Full Interface](./docs/screenshots/Full_Interface.png)
 
 ### 🟦 About Section
-![About Section](docs/screenshots/About_Section.png)
+![About Section](./docs/screenshots/About_Section.png)
 
 ### 🟦 User Project Input
-![User Project Info](docs/screenshots/User_Project_Info.png)
+![User Project Info](./docs/screenshots/User_Project_Info.png)
 
 ### 🟦 Layer Input Panel
-![Layer Input](docs/screenshots/Layer_input.png)
+![Layer Input](./docs/screenshots/Layer_input.png)
 
 ### 🟦 AI Emission Calculation
-![Calculation](docs/screenshots/calculation.png)
+![Calculation](./docs/screenshots/calculation.png)
 
 ### 🟦 Emission Graphs
-![Graph Section](docs/screenshots/Graph_Section.png)
+![Graph Section](./docs/screenshots/Graph_Section.png)
 
 ### 🟦 Generated PDF Report
-![PDF Screenshot](docs/screenshots/Generated_PDF.png)
+![PDF Screenshot](./docs/screenshots/Generated_PDF.png)
 
 ---
 
