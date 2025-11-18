@@ -12,12 +12,12 @@
 ---
 
 ## 💡 Overview
-The **Flexible Pavement Carbon Footprint Estimator** is a desktop software tool that predicts **layer-wise and total CO₂ emissions** per lane-km using machine learning models.
+The **Flexible Pavement Carbon Footprint Estimator** is a standalone desktop tool that predicts **layer-wise and total CO₂ emissions** per lane-km using AI-based models.
 
 ### Designed for:
 ✔ Civil Engineers  
 ✔ Pavement Designers  
-✔ Researchers & Academics  
+✔ Researchers  
 ✔ Sustainability Professionals  
 
 ---
@@ -27,11 +27,10 @@ The **Flexible Pavement Carbon Footprint Estimator** is a desktop software tool 
 |---------|--------|
 | ⚡ AI/ML-based carbon estimation | ✅ |
 | 🔌 Fully offline (no internet required) | ✅ |
-| ▶ Automatic backend startup | ✅ |
-| 📄 Professional PDF report export | ✅ |
-| 📊 Chart-based visualization | ✅ |
+| 📊 Interactive charts | ✅ |
+| 📄 One-click PDF report export | ✅ |
 | 🎯 Layer-wise & total emission breakdown | ✅ |
-| 🪟 MSI installer & desktop shortcut | ✅ |
+| 👨‍💻 Desktop shortcut & MSI installer | ✅ |
 
 ---
 
@@ -45,36 +44,80 @@ The **Flexible Pavement Carbon Footprint Estimator** is a desktop software tool 
 
 ---
 
-## 📦 Installation (Simple & User-Friendly)
-1. Download the `.msi` from Releases  
-2. Double-click to install  
-3. Complete Setup Wizard  
-4. Launch from Desktop or Start Menu  
-5. **Backend starts automatically – no setup required**
+## 📦 Installation
+1. Download the `.msi` file from Releases  
+2. Run the installer  
+3. Finish setup  
+4. A desktop shortcut will be created:  
 
 ---
 
-## 🖼 Screenshots
+# 🚀 IMPORTANT — FIRST TIME RUN INSTRUCTIONS
+Windows may block automatic backend startup for security reasons.  
+If the dashboard opens but **prediction does not work**, follow these steps:
 
-### 🟦 Full Application Interface
+### ✅ Step 1 — Start the Backend Manually
+Navigate to:
+C:\Program Files\Flexible Pavement Dashboard\app\
+
+Double-click:
+carbon_backend.exe
+
+
+A terminal will open.  
+Wait until you see this message:
+Uvicorn running on http://127.0.0.1:8000
+
+
+➡ **Leave this terminal open** (you may minimize it)
+
+---
+
+### Step 2 — Start the Dashboard
+Now launch the app from desktop shortcut: Flexible Pavement Dashboard
+
+
+💡 The dashboard will now work completely.
+
+---
+
+## 🛠 Why This Step Is Needed
+Some Windows installations block background EXE execution for security.  
+Starting the backend manually ensures full functionality without modifying your system.
+
+---
+
+## 🔍 Quick Troubleshooting
+| Problem | Solution |
+|---------|----------|
+| Prediction doesn’t run | Start `carbon_backend.exe` manually |
+| Backend closes instantly | Run as Administrator |
+| SmartScreen warning appears | Click **More info → Run anyway** |
+| Antivirus blocks EXE | Allow it |  
+
+---
+
+## 🟦 Screenshots
+
+### Full Interface  
 ![Full Interface](./docs/screenshots/Full_Interface.png)
 
-### 🟦 About Section
+### About Section  
 ![About Section](./docs/screenshots/About_Section.png)
 
-### 🟦 User Project Input
+### User Project Inputs  
 ![User Project Info](./docs/screenshots/User_Project_Info.png)
 
-### 🟦 Layer Input Panel
+### Layer Input Panel  
 ![Layer Input](./docs/screenshots/Layer_input.png)
 
-### 🟦 AI Emission Calculation
+### AI Emission Calculation  
 ![Calculation](./docs/screenshots/calculation.png)
 
-### 🟦 Emission Graphs
+### Emission Graph  
 ![Graph Section](./docs/screenshots/Graph_Section.png)
 
-### 🟦 Generated PDF Report
+### Generated PDF  
 ![Generated PDF](./docs/screenshots/Generated_PDF.png)
 
 ---
@@ -82,23 +125,24 @@ The **Flexible Pavement Carbon Footprint Estimator** is a desktop software tool 
 ## 🛠 Tech Stack
 - Java 21
 - JavaFX
-- FastAPI (Python backend)
+- FastAPI + Python
 - Maven
-- jpackage (runtime)
+- jpackage
 - MSI installer
-- GitHub Releases + Git LFS
+- GitHub Releases (LFS)
 
 ---
 
 ## 🧪 Tested On
 ✔ Fresh Windows 10 install  
 ✔ Windows 11  
-✔ No Java installed (bundled runtime)
+✔ No Java installed (bundled runtime)  
+✔ Offline systems  
 
 ---
 
 ## 👨‍💻 Developer
-**Alok Kumar — IIT Indore (2025)**  
+**Alok Kumar – IIT Indore (2025)**  
 📧 Contact available via GitHub profile
 
 ---
@@ -109,4 +153,11 @@ If this tool helped you, please ⭐ star the repo!
 
 ---
 
-> _Making sustainable pavement design practical, fast, and accessible_
+> _Making sustainable pavement design practical, fast, and accessible_ 🌱
+
+---
+
+## 📌 TL;DR for Users
+---
+
+
